@@ -1,0 +1,71 @@
+.calculator{
+    padding: 10rem;
+}
+
+input{
+    padding: 0.75rem 1rem;
+    font-size: 1.1rem;
+    border: 2px solid #e5e7eb;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: all 0.3s ease;
+    background-color: #f9fafb;
+    margin: 0.5rem 0;
+}
+
+input:focus{
+    border-color: #3b82f6;
+    background-color: white;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+input:hover{
+    border-color: #d1d5db;
+}
+
+button{
+    margin-top: 2rem;
+    padding: 0.75rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border: 2px solid #2563eb;
+    background-color: #3b82f6;
+    color: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover{
+    background-color: #2563eb;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.underweight{
+    color: #3b82f6;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.normal-weight{
+    color: #10b981;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.overweight{
+    color: #f59e0b;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.obesity{
+    color: #ef4444;
+    font-weight: 700;
+    font-size: 1.5rem;
+}

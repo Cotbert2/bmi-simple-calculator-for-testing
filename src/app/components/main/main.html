@@ -1,0 +1,21 @@
+<section >
+    <div class="df ai-center jc-space-around calculator">
+
+        <input type="number" placeholder="Weight (kg)" [(ngModel)] = "weigthInput">
+        <input type="number" placeholder="Height (m)" [(ngModel)] = "heightInput">
+    </div>
+    
+
+        <button (click)="calculateBMI()">Calculate</button>
+
+
+    <p class="align-text-center">{{result}}</p>
+    <p class="align-text-center"
+    [ngClass]="{
+      'underweight': classifier === 'Underweight',
+      'normal-weight': classifier === 'Normal weight',
+      'overweight': classifier === 'Overweight',
+      'obesity': classifier === 'Obesity'
+    }"
+    >{{classifier}}</p>
+</section>
