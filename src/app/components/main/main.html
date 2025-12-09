@@ -9,7 +9,7 @@
         <button (click)="calculateBMI()">Calculate</button>
 
 
-    <p class="align-text-center">{{result}}</p>
+    <p class="align-text-center result">{{result}}</p>
     <p class="align-text-center"
     [ngClass]="{
       'underweight': classifier === 'Underweight',

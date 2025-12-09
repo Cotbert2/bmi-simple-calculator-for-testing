@@ -61,7 +61,7 @@ describe('Calculator', () => {
     });
   });
 
-  describe('tests to fail', () => { 
+  // describe('tests to fail', () => { 
 
     // it('should fail when multiplying 10 by 3 and expecting 25', () => {
     //   const spectedValue = 25;
@@ -80,5 +80,5 @@ describe('Calculator', () => {
     //   const divideByZeroResult = calculator.divide(10, 0);
     //   expect(divideByZeroResult).toBeNaN();
     // });
-   })
+  //  })
 });
